@@ -1,0 +1,23 @@
+{
+  "analysis_query": "Analyze why ROAS dropped last week, and provide creative recommendations.",
+  "hypothesis": {
+    "primary_trend": "ROAS dropped from 6.005171959208733 to 5.289153586309386",
+    "hypothesis": "Efficiency decreased due to scaling issues and potential creative fatigue",
+    "reasoning": "Spend fluctuated, but overall remained high, while CTR showed a slight decline, indicating possible creative fatigue, and ROAS decreased, suggesting efficiency loss in ad spend"
+  },
+  "validation": {
+    "status": "verified",
+    "confidence_score": 0.95,
+    "metric_check": "ROAS change: -0.16"
+  },
+  "metrics_summary": {
+    "date": "2025-03-31",
+    "spend": 164027.12,
+    "revenue": 867564.63,
+    "impressions": 90381864,
+    "clicks": 1129776.0,
+    "roas": 5.289153586309386,
+    "ctr": 0.012500029873249793,
+    "cpc": 0.14518552350200392
+  }
+}

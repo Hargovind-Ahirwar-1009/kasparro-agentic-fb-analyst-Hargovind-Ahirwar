@@ -1,0 +1,11 @@
+project_name: "kasparro-agentic-fb-analyst"
+version: "1.0-groq"
+model: "llama-3.3-70b-versatile"
+data:
+  raw_path: "data/synthetic_fb_ads_undergarments.csv"
+thresholds:
+  low_ctr: 0.01
+  confidence_min: 0.7
+system:
+  random_seed: 42
+  log_level: "INFO"
